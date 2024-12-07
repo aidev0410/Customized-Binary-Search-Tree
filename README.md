@@ -1,8 +1,15 @@
-# Vite React Typescript Template
+# Customized Binary Search Tree
 
-Vite React Typescript Template for building simple web frontend application.
+![image](./images/image.png)
 
 ## Tasks
+
+- User should be able to build the binary search tree.
+- User can create the root node, each node has its own values.
+- User can select the node and create left or right child with its value.
+- If child node has bigger value than the parent, should mark as red
+- User should be able to update the value of Node, should display value as static, don't put inputbox directly in the node.
+- If there's no red nodes, then user should be able to search certain value and see the detailed logs of how you found it and visited node counts during search.
 
 ## Environment
 
@@ -13,6 +20,7 @@ Vite React Typescript Template for building simple web frontend application.
 ## Tech Stacks
 
 - Vite + React + Typescript
+- Treeflex
 
 ## Steps to run program
 
@@ -22,7 +30,7 @@ Vite React Typescript Template for building simple web frontend application.
    npm install
    ```
 
-3. Run project
+2. Run project
    ```shell
    npm run dev
    ```
